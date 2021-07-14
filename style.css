@@ -16,7 +16,9 @@ ul {
   list-style-type: none;
 }
 
-/* Header style */
+/*----------------
+Header style 
+-----------------*/
 
 header {
   width: 100%;
@@ -41,7 +43,9 @@ header {
   display: none;
 }
 
-/* Nav menu style */
+/* ------------------
+Nav menu style 
+---------------------*/
 
 .nav-items {
   display: flex;
@@ -84,6 +88,8 @@ header {
 /*----------------------
 Hero Section Style
 -----------------------*/
+
+
 .hero {
   position: relative;
   width: 100%;
@@ -255,6 +261,52 @@ Highlights Section Style
 
 
 /*----------------------
+Buy Tickets Section Style
+-----------------------*/
+
+.buy-tickets {
+  width: 80%;
+  margin: 150px auto;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/copa\ america\ with\ bg.png);
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 190px 0; 
+}
+.buy-tickets h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+.buy-now-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.buy-now-btn a{
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #E02C6D;
+  margin-top: 30px;
+  padding: 10px 30px;
+  transition: transform .5s ease;
+}
+.buy-now-btn:hover a{
+  transform: scale(.9);
+}
+.buy-now-btn i {
+  font-size: 15px;
+  padding-left: px;
+  color: #fff;
+}
+
+
+/*----------------------
 Footer Section Style
 -----------------------*/
 
@@ -273,20 +325,13 @@ Footer Section Style
   margin: 10px auto 15px auto;
 }
 .social-icons i {
+  cursor: pointer;
   color: #969BAB;
   background-color: #E7E7E8;
   padding: 10px;
   margin: 5px;
   border-radius: 50%;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -314,7 +359,9 @@ Media Query for all device
 
 @media (max-width:768px) {
 
-/* Navbar Style */
+/* -----------------
+Navbar Style 
+-------------------*/
   
 .nav-menu {
   width: 90%;
@@ -323,7 +370,9 @@ Media Query for all device
   margin-right: 26px;
 }
 
-/* Hero Section Style */
+/* --------------
+Hero Section Style 
+-------------------*/
 
 .hero-row {
   width: 90%;
@@ -339,7 +388,9 @@ Media Query for all device
   line-height: 70px;
 }
 
-/* Players Section Style */
+/* ----------------------
+Players Section Style 
+---------------------------*/
 
 .all-players {
   width: 90%;
@@ -349,7 +400,9 @@ Media Query for all device
   row-gap: 15px;
 }
 
-/* Highlights section Style */
+/* ---------------------
+Highlights section Style 
+-------------------------*/
 
 .highlights-row {
   width: 90%;
@@ -369,6 +422,16 @@ Media Query for all device
 }
 .highlights-btn {
   margin-bottom: 100px;
+}
+
+/* -------------------
+buy tickets Style 
+------------------------*/
+
+.buy-tickets {
+  width: 90%;
+  margin: 120px auto;
+  padding: 190px 0; 
 }
 }
 
@@ -498,40 +561,42 @@ Navbar Style
     padding: 10px 24px;
   }
 
+
 /*----------------
 Hero Section Style 
 ------------------*/
-  .hero {
-    position: relative;
-    width: 100%;
-    height: 120vh;
-    margin: auto;
+  
+.hero {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  margin: auto;
 }
-  .hero-row {
-    width: 90%;
-    margin: auto;
-    margin-left: 0;
-    padding-top: 15%;
-    display: flex;
-    flex-direction: column;
+.hero-row {
+  width: 90%;
+  margin: auto;
+  margin-left: 0;
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
 }
-  .hero-row-col1 h1{
-    font-size: 36px;
-    line-height: 50px;
-    margin-bottom: 5%;
-    text-align: left;
+.hero-row-col1 h1{
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 5%;
+  text-align: left;
 }
-  .hero-row-col1 {
-    margin: 0 15% 0 0%;
-    display: block;  
+.hero-row-col1 {
+  margin: 0 15% 0 0%;
+  display: block;  
 }
-  .hero-row-col2 {
-    margin: 25% -5% 20% 5%;
-    display: block;
-    text-align: center;  
+.hero-row-col2 {
+  margin: 25% -5% 20% 5%;
+  display: block;
+  text-align: center;  
 }
-  .hero-row-col2 img {
-    width: 100%;
+.hero-row-col2 img {
+  width: 100%;
 }
 
 /*----------------
@@ -569,13 +634,32 @@ Highlights Section Style
   font-size: 35px;
 }
 
+
+/* -------------
+buy tickets Style 
+-----------------*/
+
+.buy-tickets {
+  width: 90%;
+  margin: 100px auto;
+  padding: 190px 0; 
+}
+.buy-tickets h1 {
+  font-size: 25px;
+  margin: 0 30px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: -50px;
+}
+
+
 /*----------------
-Highlights Section Style 
+Footer Section Style 
 ------------------*/
 
 .footer {
   width: 60%;
-  margin: ;
   position: relative;
   display: block;
   text-align: center;
