@@ -1,0 +1,550 @@
+/*----------------------------------------------
+Get rid of all the unexpected margins & paddings
+----------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+/* Header style */
+
+header {
+  width: 100%;
+  margin: auto;
+  background-color: #2D25A0;
+}
+.nav-menu {
+  width: 80%;
+  margin: auto;
+  padding: 42px 0 42px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hide the toggler checkbox for the desktop & tab version*/
+
+#toggler {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+
+/* Nav menu style */
+
+.nav-items {
+  display: flex;
+}
+.nav-items li {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 36px;
+}
+.nav-items li:hover {
+  box-shadow: 0 2px 0 0 #fff;
+}
+
+/* Nav button style */
+
+/* .login-btn {
+  transition: transform .5s ease-in-out;
+}
+.login-btn:hover {
+  transform: translateY(2px);
+} */
+.login-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-btn a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #E02C6D;
+  padding: 10px 20px;
+}
+.login-btn i {
+  font-size: 15px;
+  padding-right: 8px;
+}
+
+/*----------------------
+Hero Section Style
+-----------------------*/
+.hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  background-color: #2D25A0;
+}
+.hero-row {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-row-col1 {
+  flex-basis: 50%;
+  display: block;
+  margin-top: -8%;
+}
+.hero-row-col1 h1{
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.hero-btn a{
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #E02C6D;
+  margin-top: 70px;
+  padding: 10px 20px;
+  transition: transform .5s ease;
+}
+.hero-btn:hover a{
+  transform: scale(.9);
+}
+.hero-btn i {
+  font-size: 16px;
+  padding-left: 8px;
+}
+.hero-row-col2 {
+  flex-basis: 50%;
+  display: block;
+}
+.hero-row-col2 img {
+  width: 100%;
+  transition: transform .5s ease;
+}
+.hero-row-col2 img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/*----------------------
+Players Section Style
+-----------------------*/
+
+.players-container {
+  width: 100%;
+  background-color: #fff;
+}
+.all-players {
+  width: 80%;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 27px;
+}
+.player {
+  width: 300px;
+  height: 440px;
+  padding: 15px;
+  box-shadow: 0 0 20px 0 rgba(194, 194, 194, 0.664);
+  overflow: hidden;
+  transition: transform .5s;
+  cursor: pointer;
+}
+.player:hover {
+  transform: translateY(-10px);
+}
+.player img {
+  width: 300px;
+  height: 260px;
+}
+.player h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #18191F;
+  margin-top: 8px;
+}
+.player p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #6C6C6C;
+  margin: 10px 0 15px 0;
+}
+
+/*----------------------
+Highlights Section Style
+-----------------------*/
+
+.highlights {
+  width: 100%;
+  margin: auto;
+  margin-top: 165px;
+}
+.highlights-row {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.highlights-row-col-1 {
+  flex-basis: 50%;  
+}
+.highlights-row-col-1 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #0A0826;
+  margin-top: -10%;
+}
+.highlights-row-col-1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #6C6C6C;
+  margin: 10px 0 15px 0;
+  width: 80%;
+}
+
+.highlights-btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.highlights-btn a{
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #E02C6D;
+  margin-top: 70px;
+  padding: 10px 20px;
+  transition: transform .5s ease;
+}
+.highlights-btn:hover a{
+  transform: scale(.9);
+}
+.highlights-btn i {
+  font-size: 16px;
+  padding-left: 8px;
+}
+.highlights-row-col-2 {
+  flex-basis: 50%;
+}
+.highlights-row-col-2 img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------
+Media Query for all device 
+--------------------------*/
+
+/*----------------------------
+ Media Query for tablet device 
+ ------------------------------*/
+
+@media (max-width:768px) {
+
+/* Navbar Style */
+  
+.nav-menu {
+  width: 90%;
+}
+.nav-items li {
+  margin-right: 26px;
+}
+
+/* Hero Section Style */
+
+.hero-row {
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-row-col1 h1{
+  margin-top: -10%;
+  font-size: 43px;
+  line-height: 70px;
+}
+
+/* Players Section Style */
+
+.all-players {
+  width: 90%;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 15px;
+}
+
+/* Highlights section Style */
+
+.highlights-row {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.highlights-row-col-1 h1 {
+  font-size: 40px;
+}
+.highlights-row-col-1 p {
+  font-size: 14px;
+  margin: 10px 0 15px 0;
+  width: 100%;
+}
+.highlights-btn {
+  margin-bottom: 100px;
+}
+}
+
+
+/*----------------------------
+ Media Query for mobile device 
+ ------------------------------*/
+
+@media (max-width:425px) {
+
+/*----------------
+Navbar Style 
+------------------*/
+  
+  .nav-menu {
+    width: 90%;
+    margin: auto;
+    padding: 42px 0 42px 0;
+    z-index: 1;
+  }
+
+/* Toggler placing over the hamburger  */
+
+  #toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 55px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    opacity: 0;
+  }
+
+/* Hamburger container making  */
+  
+  .hamburger {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 40px;
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+    margin: 10px;
+  }
+
+/* Hamburger creation(the center line creation) */
+  
+  .hamburger > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+    transition: all .5s ease;
+  }
+
+/* Creat the upper & lower line of hamburger */
+  
+  .hamburger > div::before, 
+  .hamburger > div::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    top: -8px;
+    background-color: #fff;
+  }
+
+/* Move down the lower line so that it can be visible */
+  
+  .hamburger > div::after {
+    top: 8px;
+  }
+
+/* Rotate the hamburger when clicked */
+
+  #toggler:checked ~ .hamburger > div {
+    transform: rotate(135deg);
+  }
+
+/* Turn the hamburger into X */
+
+  #toggler:checked ~ .hamburger > div::before,
+  #toggler:checked ~ .hamburger > div::after {
+    transform: rotate(90deg);
+    top: 0;
+  }
+
+/* Just a hover effect */
+
+  #toggler:checked:hover ~ .hamburger > div {
+    transform: rotate(225deg);
+  }
+
+
+/* Nav items Style */
+  
+  .nav-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    background-color: #2D25A0;
+    margin-top: 500px;
+    margin-left: -105%;
+    padding: 30px 0;
+    transition: margin-left .5s ease-in-out;
+    z-index: 1;
+    box-shadow: 0 0 10px 0 rgba(211, 211, 211, 0.521);
+  }
+    #toggler:checked ~ .nav-items {
+    margin-left: 0%;
+  }
+  .nav-items li {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+  .btn a {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
+
+/*----------------
+Hero Section Style 
+------------------*/
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    margin: auto;
+}
+  .hero-row {
+    width: 90%;
+    margin: auto;
+    margin-left: 0;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+}
+  .hero-row-col1 h1{
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+  .hero-row-col1 {
+    margin: 0 15% 0 0%;
+    display: block;  
+}
+  .hero-row-col2 {
+    margin: 25% -5% 20% 5%;
+    display: block;
+    text-align: center;  
+}
+  .hero-row-col2 img {
+    width: 100%;
+}
+
+/*----------------
+Player Section Style 
+------------------*/
+
+.all-players {
+  width: 90%;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 15px;
+}
+.player {
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+}
+.player img {
+  width: 100%;
+  height: 260px;
+}
+
+/*----------------
+Highlights Section Style 
+------------------*/
+
+.highlights {
+  margin-top: 120px;
+}
+.highlights-row {
+  margin: 0 auto 50px auto;
+}
+.highlights-row-col-1 h1 {
+  font-size: 35px;
+}
+}
+
+
+
