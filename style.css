@@ -254,7 +254,31 @@ Highlights Section Style
 }
 
 
+/*----------------------
+Footer Section Style
+-----------------------*/
 
+.footer {
+  width: 60%;
+  margin: 150px auto 30px auto;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.footer img {
+  width: 400px;
+  height: 80;
+}
+.social-icons {
+  margin: 10px auto 15px auto;
+}
+.social-icons i {
+  color: #969BAB;
+  background-color: #E7E7E8;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+}
 
 
 
@@ -543,6 +567,22 @@ Highlights Section Style
 }
 .highlights-row-col-1 h1 {
   font-size: 35px;
+}
+
+/*----------------
+Highlights Section Style 
+------------------*/
+
+.footer {
+  width: 60%;
+  margin: ;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.footer img {
+  margin-left: -15%;
+  width: 130%;
 }
 }
 
