@@ -305,6 +305,61 @@ Buy Tickets Section Style
   color: #fff;
 }
 
+/*----------------------
+Contact Section Style
+-----------------------*/
+.contact {
+  width: 80%;
+  margin: 100px auto;
+}
+.contact h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-row-col1 {
+  flex-basis: 50%;
+  margin-right: -10%;
+}
+.contact-row-col1 img {
+  width: 80%;
+}
+.contact-row-col2 {
+  flex-basis: 50%;
+  margin-left: 10%;
+}
+.contact-row-col2 input {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 15px 305px 20px 15px;
+  margin: 10px 0;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.contact-row-col2 textarea {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 15px 0 0 15px;
+  resize: none;
+  margin: 10px 0;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.mob {
+  display: none;
+}
+
+
+
+
+
+
+
+
 
 /*----------------------
 Footer Section Style
@@ -432,6 +487,25 @@ buy tickets Style
   width: 90%;
   margin: 120px auto;
   padding: 190px 0; 
+}
+
+/* -------------------
+contact Style 
+------------------------*/
+
+.contact {
+  width: 80%;
+  margin: 50px auto;
+}
+.contact-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-row-col2 input {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 15px 295px 20px 15px;
 }
 }
 
@@ -651,6 +725,27 @@ buy tickets Style
   color: #fff;
   text-transform: uppercase;
   margin-top: -50px;
+}
+
+/*----------------
+Contact Section Style 
+------------------*/
+.contact {
+  width: 90%;
+  margin: 100px auto;
+}
+.desktop-tab {
+  display: none;
+}
+.mob {
+  display: block;
+}
+.contact-row-col2 input {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 15px 60px 20px 15px;
+  margin: 10px 0;
+  font-size: 15px;
+  border-radius: 5px;
 }
 
 
